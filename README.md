@@ -42,7 +42,24 @@
 
 ![Screenshot (21)](https://github.com/user-attachments/assets/a2f9cbab-340c-4cef-8bae-789ef09fbb90)
 
-## 1.5
+## 1.5 Order of the tests
 
+- In general
+  - Order should not be a factor in unit tests
+  - There should be no dependency between tests
+  - All tests should pass regardless of the order in which they are run
+
+- However, there are some uses cases when you want to control the order
+  - You want tests to appear in alphabetical order for reporting purposes 
+  - Sharing reports with project management, QA team etc...
+  - Group tests based on functionality or requirements
+
+![Screenshot (22)](https://github.com/user-attachments/assets/36191c6e-29a0-4360-bb3e-552c23805011)
+
+![Screenshot (23)](https://github.com/user-attachments/assets/fddbd9c7-cd4d-4637-ae20-638f14173283)
+
+![Screenshot (25)](https://github.com/user-attachments/assets/132a855d-7d95-45be-9a95-1278c76ebe8a)
+
+![Screenshot (24)](https://github.com/user-attachments/assets/3de7a80a-ef4c-47db-ad68-cb9dde98ba02)
 
 ## 1.6
