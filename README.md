@@ -62,4 +62,10 @@
 
 ![Screenshot (24)](https://github.com/user-attachments/assets/3de7a80a-ef4c-47db-ad68-cb9dde98ba02)
 
-## 1.6
+## 1.6 code coverage and test reports by intelliJ or Maven
+
+- Code Coverage measures how many methodes/lines are called by your test. Represented as a percentage: 50% coverage
+  - In general, the higher the coverage the better
+    - However, 100% is not alwats attainble. usually 70% - 80% is acceptable.
+  - code coverage is just one data to consider is it a good or bad test. There are a lot of data to consider is it a good or bad test.
+ 
