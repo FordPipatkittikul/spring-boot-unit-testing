@@ -12,8 +12,8 @@
 - assertNotEquals : Assert that the values are not equal.
 - assertNull : Assert that the value is null.
 - assertNotNull : Assert that the value is not null.
-- assertSame : Assert that items refer to same object.
-- assertNotSame : Assert that items do not refer to same object.
+- assertSame : Assert that items refer to same object. **in terms of Object reference**
+- assertNotSame : Assert that items do not refer to same object. **in terms of Object reference**
 - assertTrue : Assert that condition is true.
 - assertFalse : Assert that condition is false.
 - assertArrayEquals : Assert that both object arrays are deeply equal
