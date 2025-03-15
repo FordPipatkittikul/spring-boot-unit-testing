@@ -1,12 +1,26 @@
 # 1. Unit testing
 
-## Structure
+## 1.1 Structure
 
 ![Screenshot (14)](https://github.com/user-attachments/assets/f3ee568d-4d94-4f55-b55a-4db7998f620b)
 
 ![Screenshot (15)](https://github.com/user-attachments/assets/f8eadd3b-5fc6-4bad-8695-b0c3525df7a4)
 
-## Lifecycle
+## 1.2 Assertions
+
+- assertEquals : Assert that the values are equal.
+- assertNotEquals : Assert that the values are not equal.
+- assertNull : Assert that the value is null.
+- assertNotNull : Assert that the value is not null.
+- assertSame : Assert that items refer to same object.
+- assertNotSame : Assert that items do not refer to same object.
+- assertTrue : Assert that condition is true.
+- assertFalse : Assert that condition is false.
+- assertArrayEquals : Assert that both object arrays are deeply equal
+- assertIterableEquals : Assert that both object iterables are deeply equal. **An "iterable" is an instance of a class that implements the java.lang.Iterable interface Examples: ArrayList, LinkedList, HashSet, TreeSet**
+- assertLinesMatch : Assert that both lists of strings match
+
+## 1.3 Lifecycle
 
 - @BeforeEach : Method is executed before each test method. Useful for common setup code: creating objects, setting up test data.
 - @AfterEach : Method is executed after each test method. Useful for common clean up code: releasing resources, cleanning up test data.
