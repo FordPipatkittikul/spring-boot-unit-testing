@@ -16,9 +16,12 @@
 - assertNotSame : Assert that items do not refer to same object. **in terms of Object reference**
 - assertTrue : Assert that condition is true.
 - assertFalse : Assert that condition is false.
-- assertArrayEquals : Assert that both object arrays are deeply equal
+- assertArrayEquals : Assert that both object arrays are deeply equal.
 - assertIterableEquals : Assert that both object iterables are deeply equal. **An "iterable" is an instance of a class that implements the java.lang.Iterable interface Examples: ArrayList, LinkedList, HashSet, TreeSet**
-- assertLinesMatch : Assert that both lists of strings match
+- assertLinesMatch : Assert that both lists of strings match.
+- assertThrows Assert that an executable throws an exception of expected type.
+- assertTimeoutPreemptively Assert that an executable completes before given timeout is exceeded
+
 
 ## 1.3 Lifecycle
 
@@ -29,7 +32,7 @@
 
 ![Screenshot (16)](https://github.com/user-attachments/assets/b6a4f3bb-3256-42ac-9a5c-cf0dc9fa1f83)
 
-## Custom Display Names
+## 1.4 Custom Display Names
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/3903a2b7-91ba-4b6b-b346-8f5b12bfea77)
 
@@ -39,4 +42,7 @@
 
 ![Screenshot (21)](https://github.com/user-attachments/assets/a2f9cbab-340c-4cef-8bae-789ef09fbb90)
 
+## 1.5
 
+
+## 1.6
