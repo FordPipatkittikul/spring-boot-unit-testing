@@ -68,4 +68,27 @@
   - In general, the higher the coverage the better
     - However, 100% is not alwats attainble. usually 70% - 80% is acceptable.
   - code coverage is just one data to consider is it a good or bad test. There are a lot of data to consider is it a good or bad test.
- 
+
+## 1.7 Conditional Tests
+
+- Use Cases
+  - Don't run a test because the method to test is broken ... and we are waiting on dev team to fix it 
+  - A test should only run for a specific version of Java (Java 18) or range of versions (13 - 18) 
+  - A test should only run on a given operating system: MS Windows, Mac, Linux 
+  - A test should only run if specific environment variables or system properties are set
+
+
+- @Disabled : Disable a test method.
+- @EnabledOnOs : Enable test when running on a given operating system.
+- @EnabledOnJre : Enable test for a given Java version.
+- @EnabledForJreRange : Enable test for a given Java version range.
+- @EnabledIfSystemProperty : Enable test based on system property.
+- @EnabledIfEnvironmentVariable : Enable test based on environment variable.
+
+![Screenshot (26)](https://github.com/user-attachments/assets/d8c3b570-054c-4eaf-84a6-52570bed2da7)
+
+![Screenshot (27)](https://github.com/user-attachments/assets/56ff6514-596b-499d-bba9-cffcae27adc4)
+
+![Screenshot (29)](https://github.com/user-attachments/assets/70845487-2c1b-4b26-a6db-2854bf309e03)
+
+## 2. TDD
