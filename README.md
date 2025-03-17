@@ -91,4 +91,25 @@
 
 ![Screenshot (29)](https://github.com/user-attachments/assets/70845487-2c1b-4b26-a6db-2854bf309e03)
 
-# 2. TDD
+# 2. TDD and ParameterizedTest
+
+TDD:
+
+   1. Write a failing test 
+   2. Write code to make the test pass 
+   3. Refactor the code 
+   4. Repeat the process
+
+Using **@ParameterizedTest**
+   
+   - @ValueSource Array of values: Strings, ints, doubles, floats etc
+   - @CsvSource Array of CSV String values
+   - @CsvFileSource CSV values read from a file
+   - @EnumSource Enum constant values
+   - @MethodSource Custom method for providing values
+
+![Screenshot (30)](https://github.com/user-attachments/assets/2bd8473e-e2b9-4641-ade5-c021f7be3e6d)
+
+![Screenshot (31)](https://github.com/user-attachments/assets/a3ce3f51-15ff-491f-a633-8cf16209483a)
+
+![Screenshot (32)](https://github.com/user-attachments/assets/e53d42c5-9365-433c-8f96-7efdca493815)
