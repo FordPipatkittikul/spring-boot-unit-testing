@@ -177,4 +177,16 @@ Using **@ParameterizedTest**
 
 ![Screenshot (47)](https://github.com/user-attachments/assets/ab4c87d7-7702-466c-9e86-1fd1b17ae173)
 
+# 4 Testing using Reflection
+
+- It is for special cases when you need to access non-public fields or invoke non-public methods
+
+- In general, testing non-public fields and methods is controversial(ขัดเเย้ง). So be careful about it.
+
+![Screenshot (48)](https://github.com/user-attachments/assets/419eeb6f-7352-48ca-a079-a7196bb680c0)
+
+![Screenshot (49)](https://github.com/user-attachments/assets/fabded32-32cf-4e08-8eed-752883de458b)
+
+![Screenshot (50)](https://github.com/user-attachments/assets/d888ec30-ad23-4625-8367-1dc2a6773b48)
+
 
