@@ -171,8 +171,10 @@ Using **@ParameterizedTest**
 ![Screenshot (43)](https://github.com/user-attachments/assets/f962cf51-d190-4e2f-ae1e-a6f93a5aef4d)
 
 
+## 3.4 @MockitoBean
 
+![Screenshot (46)](https://github.com/user-attachments/assets/61baf8ae-6c47-4bee-a605-91bac455dd83)
 
-
+![Screenshot (47)](https://github.com/user-attachments/assets/ab4c87d7-7702-466c-9e86-1fd1b17ae173)
 
 
