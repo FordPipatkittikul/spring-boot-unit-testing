@@ -134,3 +134,15 @@ Using **@ParameterizedTest**
 ![Screenshot (36)](https://github.com/user-attachments/assets/2dd54c58-248e-4b7f-a786-34a1a8624dc1)
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/3f3b504f-3f68-4a1d-aad2-f8605aa4dea8)
+
+# Mocking
+
+## 3.1 benefits
+- Allows us to test a given class in isolation
+- Test interaction between given class and its dependencies
+- Minimizes configuration / availability of dependencies
+- For example DAO, DB, REST API etc
+    - We can mock the DAO to give a response
+    - We can mock a REST API to give a response
+
+![Screenshot (38)](https://github.com/user-attachments/assets/471c6629-b5e2-4cce-9b69-7f7826ab83f0)
