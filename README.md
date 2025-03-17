@@ -113,3 +113,24 @@ Using **@ParameterizedTest**
 ![Screenshot (31)](https://github.com/user-attachments/assets/a3ce3f51-15ff-491f-a633-8cf16209483a)
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/e53d42c5-9365-433c-8f96-7efdca493815)
+
+# 3 Spring Boot support for Unit Testing
+
+## 3.1 What do we need for Spring Boot unit testing
+
+ - Access to the Spring Application Context
+ - Support for Spring dependency injection
+ - Retrieve data from Spring application.properties
+ - Mock object support for web, data, REST APIs etc
+
+![Screenshot (33)](https://github.com/user-attachments/assets/07fe42a3-3ef5-48dc-af92-6c54a3b05d44)
+
+![Screenshot (34)](https://github.com/user-attachments/assets/467295eb-cb30-4743-811f-64e30fbab058)
+
+![Screenshot (35)](https://github.com/user-attachments/assets/b89d4597-79c5-441c-af91-69f37e6d0fc0)
+
+## 3.2 Configuration
+
+![Screenshot (36)](https://github.com/user-attachments/assets/2dd54c58-248e-4b7f-a786-34a1a8624dc1)
+
+![Screenshot (37)](https://github.com/user-attachments/assets/3f3b504f-3f68-4a1d-aad2-f8605aa4dea8)
