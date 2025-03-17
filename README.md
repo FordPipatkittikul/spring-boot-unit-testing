@@ -134,3 +134,47 @@ Using **@ParameterizedTest**
 ![Screenshot (36)](https://github.com/user-attachments/assets/2dd54c58-248e-4b7f-a786-34a1a8624dc1)
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/3f3b504f-3f68-4a1d-aad2-f8605aa4dea8)
+
+# Mocking
+
+## 3.1 benefits
+
+- Allows us to test a given class in isolation
+- Test interaction between given class and its dependencies
+- Minimizes configuration / availability of dependencies
+- For example DAO, DB, REST API etc
+    - We can mock the DAO to give a response
+    - We can mock a REST API to give a response
+
+![Screenshot (38)](https://github.com/user-attachments/assets/471c6629-b5e2-4cce-9b69-7f7826ab83f0)
+
+## 3.2 Mocking Framework
+
+- Mockito. **Reccomend** because Spring boot has built-in support for Mockito.
+- EasyMock
+- JMockit
+
+## 3.3 Process
+
+![Screenshot (39)](https://github.com/user-attachments/assets/ebc27f10-6705-4182-ba8a-8015958a8b1a)
+
+![Screenshot (44)](https://github.com/user-attachments/assets/b47dfe35-5da9-480f-b5e0-decef0aed1af)
+
+![Screenshot (45)](https://github.com/user-attachments/assets/996b57fb-c3c4-4908-af22-6584fa003042)
+
+![Screenshot (40)](https://github.com/user-attachments/assets/c1615b00-b317-4a20-96bc-1c15e8196b02)
+
+![Screenshot (41)](https://github.com/user-attachments/assets/8d9d3365-837d-4e7d-87f1-0b08b13c0e49)
+
+![Screenshot (42)](https://github.com/user-attachments/assets/f30cd49d-8135-41d4-9276-3b3fa5cd4069)
+
+![Screenshot (43)](https://github.com/user-attachments/assets/f962cf51-d190-4e2f-ae1e-a6f93a5aef4d)
+
+
+## 3.4 @MockitoBean
+
+![Screenshot (46)](https://github.com/user-attachments/assets/61baf8ae-6c47-4bee-a605-91bac455dd83)
+
+![Screenshot (47)](https://github.com/user-attachments/assets/ab4c87d7-7702-466c-9e86-1fd1b17ae173)
+
+
