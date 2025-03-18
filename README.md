@@ -189,4 +189,17 @@ Using **@ParameterizedTest**
 
 ![Screenshot (50)](https://github.com/user-attachments/assets/d888ec30-ad23-4625-8367-1dc2a6773b48)
 
+# 5 Database Integration Testing
 
+## 5.1 Approach
+
+- When we are performing integration testing with a database
+  - Each test should run from a known state 
+
+- Before each test, perform initialization
+  - Insert sample data
+     
+- After each test, perform cleanup
+  - Delete the sample data
+
+![Screenshot (51)](https://github.com/user-attachments/assets/5ade4147-fe58-4851-99cb-d92212662cf2)
