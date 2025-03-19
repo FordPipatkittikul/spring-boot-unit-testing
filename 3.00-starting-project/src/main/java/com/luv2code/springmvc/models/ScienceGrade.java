@@ -21,18 +21,22 @@ public class ScienceGrade implements Grade {
         this.grade = grade;
     }
 
+    @Override
     public int getId() {
         return id;
     }
 
+    @Override
     public void setId(int id) {
         this.id = id;
     }
 
+    @Override
     public int getStudentId() {
         return studentId;
     }
 
+    @Override
     public void setStudentId(int studentId) {
         this.studentId = studentId;
     }
@@ -42,6 +46,7 @@ public class ScienceGrade implements Grade {
         return grade;
     }
 
+    @Override
     public void setGrade(double grade) {
         this.grade = grade;
     }

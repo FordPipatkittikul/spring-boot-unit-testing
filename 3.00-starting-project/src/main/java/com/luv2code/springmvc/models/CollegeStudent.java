@@ -57,7 +57,7 @@ public class CollegeStudent implements Student {
         this.emailAddress = emailAddress;
     }
 
-
+    @Override
     public String getFullName() {
         return getFirstname() + " " + getLastname();
     }
@@ -72,6 +72,7 @@ public class CollegeStudent implements Student {
                 '}';
     }
 
+    @Override
     public String studentInformation() {
        return getFullName() + " " + getEmailAddress();
     }
