@@ -203,3 +203,13 @@ Using **@ParameterizedTest**
   - Delete the sample data
 
 ![Screenshot (51)](https://github.com/user-attachments/assets/5ade4147-fe58-4851-99cb-d92212662cf2)
+
+## 5.2 Set Up SQL Scripts in properties file instead of hardcoding
+
+![Screenshot (52)](https://github.com/user-attachments/assets/47f93f00-000e-45af-8729-c4935e2551ba)
+
+![Screenshot (53)](https://github.com/user-attachments/assets/e301b201-9118-43b6-836d-e1d6d7ef8c46)
+
+![Screenshot (54)](https://github.com/user-attachments/assets/3dc62ee6-3fa9-4a5b-929b-e984ea485389)
+
+
