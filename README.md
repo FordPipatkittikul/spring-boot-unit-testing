@@ -1,4 +1,4 @@
-# 1. Unit testing
+# 1. Unit testing (look at 1.00)
 
 ## 1.1 Structure
 
@@ -91,7 +91,7 @@
 
 ![Screenshot (29)](https://github.com/user-attachments/assets/70845487-2c1b-4b26-a6db-2854bf309e03)
 
-# 2. TDD and ParameterizedTest
+# 2. TDD and ParameterizedTest (look at 1.10)
 
 TDD:
 
@@ -114,7 +114,7 @@ Using **@ParameterizedTest**
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/e53d42c5-9365-433c-8f96-7efdca493815)
 
-# 3 Spring Boot support for Unit Testing
+# 3 Spring Boot support for Unit Testing  (look at 2.00)
 
 ## 3.1 What do we need for Spring Boot unit testing
 
@@ -135,9 +135,9 @@ Using **@ParameterizedTest**
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/3f3b504f-3f68-4a1d-aad2-f8605aa4dea8)
 
-# Mocking
+# 4 Mocking  (look at 2.20)
 
-## 3.1 benefits
+## 4.1 benefits
 
 - Allows us to test a given class in isolation
 - Test interaction between given class and its dependencies
@@ -148,13 +148,13 @@ Using **@ParameterizedTest**
 
 ![Screenshot (38)](https://github.com/user-attachments/assets/471c6629-b5e2-4cce-9b69-7f7826ab83f0)
 
-## 3.2 Mocking Framework
+## 4.2 Mocking Framework
 
 - Mockito. **Reccomend** because Spring boot has built-in support for Mockito.
 - EasyMock
 - JMockit
 
-## 3.3 Process
+## 4.3 Process
 
 ![Screenshot (39)](https://github.com/user-attachments/assets/ebc27f10-6705-4182-ba8a-8015958a8b1a)
 
@@ -171,13 +171,13 @@ Using **@ParameterizedTest**
 ![Screenshot (43)](https://github.com/user-attachments/assets/f962cf51-d190-4e2f-ae1e-a6f93a5aef4d)
 
 
-## 3.4 @MockitoBean
+## 4.4 @MockitoBean
 
 ![Screenshot (46)](https://github.com/user-attachments/assets/61baf8ae-6c47-4bee-a605-91bac455dd83)
 
 ![Screenshot (47)](https://github.com/user-attachments/assets/ab4c87d7-7702-466c-9e86-1fd1b17ae173)
 
-# 4 Testing using Reflection
+# 5 Testing using Reflection
 
 - It is for special cases when you need to access non-public fields or invoke non-public methods
 
@@ -189,9 +189,9 @@ Using **@ParameterizedTest**
 
 ![Screenshot (50)](https://github.com/user-attachments/assets/d888ec30-ad23-4625-8367-1dc2a6773b48)
 
-# 5 Database Integration Testing
+# 6 Database Integration Testing
 
-## 5.1 Approach
+## 6.1 Approach
 
 - When we are performing integration testing with a database
   - Each test should run from a known state 
@@ -204,7 +204,7 @@ Using **@ParameterizedTest**
 
 ![Screenshot (51)](https://github.com/user-attachments/assets/5ade4147-fe58-4851-99cb-d92212662cf2)
 
-## 5.2 Set Up SQL Scripts in properties file instead of hardcoding
+## 6.2 Set Up SQL Scripts in properties file instead of hardcoding
 
 ![Screenshot (52)](https://github.com/user-attachments/assets/47f93f00-000e-45af-8729-c4935e2551ba)
 
